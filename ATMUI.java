@@ -89,7 +89,7 @@ public class ATMUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        BankAccount userAccount = new BankAccount(1000.0); // Initial balance = $1000
+        BankAccount userAccount = new BankAccount(1000.0);
         new ATMUI(userAccount);
     }
 }
